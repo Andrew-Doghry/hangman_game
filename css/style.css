@@ -261,6 +261,12 @@ a {
   display: none;
   animation: 0.6s infinite linear wave_lost;
 }
+@media (max-width: 767px) {
+  .won,
+  .lost {
+    font-size: 150px;
+  }
+}
 @keyframes wave_won {
   0%,
   40%,
